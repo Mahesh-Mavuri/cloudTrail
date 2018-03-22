@@ -8,14 +8,16 @@
  <title>My Application</title>
 </head>
 <body>
-    <div id="result">Loading...</div>
-
+   Enter your Name<input type="text" id="t1">
+   <input type="button" value="Submit" onclick= "display()">
+   <h1 id="head1"></h1>
     <script>
-$(document).ready(function() {
-  $.getJSON('/demo', function(data) {
-    $('#result').html("Hello, " + data.name);
-  });
-});
+	function display()
+	{
+		var x =document.getElementById("t1").value;
+		x = "Welcome "+x;
+		document.getElementById("head1").innerHTML = x;
+	}
     </script>
   </body>
 </html>
