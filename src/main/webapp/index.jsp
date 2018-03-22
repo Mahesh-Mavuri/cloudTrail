@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
- <title>My App</title>
+ <title>My Application</title>
 </head>
 <body>
     <div id="result">Loading...</div>
